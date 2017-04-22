@@ -651,8 +651,8 @@ Image Symbol Table
     ../mathlib/funder.c                      0x00000000   Number         0  funder.o ABSOLUTE
     ../mathlib/sqrtf.c                       0x00000000   Number         0  sqrtf_x.o ABSOLUTE
     ../mathlib/sqrtf.c                       0x00000000   Number         0  sqrtf.o ABSOLUTE
-    ..\..\..\..\utils\uartstdio.c            0x00000000   Number         0  uartstdio.o ABSOLUTE
-    ..\drivers\rgb.c                         0x00000000   Number         0  rgb.o ABSOLUTE
+    C:\Users\Johnny Cuenca\OneDrive\CSULB\CSULB Spring Semester 2017\CECS 490 - Senior Design II\TivaWare_C_Series-2.1.3.156\examples\boards\ek-tm4c123gxl-boostxl-senshub\drivers\rgb.c 0x00000000   Number         0  rgb.o ABSOLUTE
+    C:\Users\Johnny Cuenca\OneDrive\CSULB\CSULB Spring Semester 2017\CECS 490 - Senior Design II\TivaWare_C_Series-2.1.3.156\utils\uartstdio.c 0x00000000   Number         0  uartstdio.o ABSOLUTE
     comp_dcm.c                               0x00000000   Number         0  comp_dcm.o ABSOLUTE
     compdcm_mpu9150.c                        0x00000000   Number         0  compdcm_mpu9150.o ABSOLUTE
     cpu.c                                    0x00000000   Number         0  cpu.o ABSOLUTE
@@ -1125,14 +1125,14 @@ Image component sizes
 
       Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Object Name
 
-      3056        436         82         20        632      18762   compdcm_mpu9150.o
-       372         46          0          8          0       2494   rgb.o
-       648        622          0          0       1024        288   startup_rvmdk.o
-       456         48          0         28          0       3163   tpid.o
-      1660        142         57         28       1152       9603   uartstdio.o
+      3056        436         82         20        632      18814   compdcm_mpu9150.o
+       372         46          0          8          0       3638   rgb.o
+       648        622          0          0       1024        332   startup_rvmdk.o
+       456         48          0         28          0       3411   tpid.o
+      1660        142         57         28       1152      10891   uartstdio.o
 
     ----------------------------------------------------------------------
-      6196       1294        176         84       2808      34310   Object Totals
+      6196       1294        176         84       2808      37086   Object Totals
          0          0         32          0          0          0   (incl. Generated)
          4          0          5          0          0          0   (incl. Padding)
 
@@ -1200,8 +1200,8 @@ Image component sizes
 
       Code (inc. data)   RO Data    RW Data    ZI Data      Debug   
 
-     13384       1606        476         88       2808      83052   Grand Totals
-     13384       1606        476         88       2808      83052   ELF Image Totals
+     13384       1606        476         88       2808      85828   Grand Totals
+     13384       1606        476         88       2808      85828   ELF Image Totals
      13384       1606        476         88          0          0   ROM Totals
 
 ==============================================================================

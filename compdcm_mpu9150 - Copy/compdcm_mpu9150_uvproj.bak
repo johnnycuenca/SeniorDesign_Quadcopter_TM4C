@@ -344,7 +344,7 @@
           </ArmAdsMisc>
           <Cads>
             <interw>0</interw>
-            <Optim>3</Optim>
+            <Optim>1</Optim>
             <oTime>0</oTime>
             <SplitLS>0</SplitLS>
             <OneElfS>1</OneElfS>
@@ -413,7 +413,7 @@
             <File>
               <FileName>rgb.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\drivers\rgb.c</FilePath>
+              <FilePath>C:\Users\Johnny Cuenca\OneDrive\CSULB\CSULB Spring Semester 2017\CECS 490 - Senior Design II\TivaWare_C_Series-2.1.3.156\examples\boards\ek-tm4c123gxl-boostxl-senshub\drivers\rgb.c</FilePath>
             </File>
             <File>
               <FileName>startup_rvmdk.S</FileName>
@@ -423,7 +423,7 @@
             <File>
               <FileName>uartstdio.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\utils\uartstdio.c</FilePath>
+              <FilePath>C:\Users\Johnny Cuenca\OneDrive\CSULB\CSULB Spring Semester 2017\CECS 490 - Senior Design II\TivaWare_C_Series-2.1.3.156\utils\uartstdio.c</FilePath>
             </File>
             <File>
               <FileName>tPID.c</FileName>
@@ -438,12 +438,12 @@
             <File>
               <FileName>driverlib.lib</FileName>
               <FileType>4</FileType>
-              <FilePath>..\..\..\..\driverlib\rvmdk\driverlib.lib</FilePath>
+              <FilePath>C:\Users\Johnny Cuenca\OneDrive\CSULB\CSULB Spring Semester 2017\CECS 490 - Senior Design II\TivaWare_C_Series-2.1.3.156\driverlib\rvmdk\driverlib.lib</FilePath>
             </File>
             <File>
               <FileName>sensorlib.lib</FileName>
               <FileType>4</FileType>
-              <FilePath>..\..\..\..\sensorlib\rvmdk\sensorlib.lib</FilePath>
+              <FilePath>C:\Users\Johnny Cuenca\OneDrive\CSULB\CSULB Spring Semester 2017\CECS 490 - Senior Design II\TivaWare_C_Series-2.1.3.156\sensorlib\rvmdk\sensorlib.lib</FilePath>
             </File>
           </Files>
         </Group>

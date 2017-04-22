@@ -4,8 +4,8 @@
 ".\rvmdk\startup_rvmdk.o"
 ".\rvmdk\uartstdio.o"
 ".\rvmdk\tpid.o"
-"..\..\..\..\driverlib\rvmdk\driverlib.lib"
-"..\..\..\..\sensorlib\rvmdk\sensorlib.lib"
+"..\..\TivaWare_C_Series-2.1.3.156\driverlib\rvmdk\driverlib.lib"
+"..\..\TivaWare_C_Series-2.1.3.156\sensorlib\rvmdk\sensorlib.lib"
 --library_type=microlib --strict --scatter "compdcm_mpu9150.sct"
 
 --entry Reset_Handler --summary_stderr --info summarysizes --map --xref --callgraph --symbols

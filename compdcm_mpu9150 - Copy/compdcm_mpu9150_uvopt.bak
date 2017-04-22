@@ -122,10 +122,6 @@
       <TargetDriverDllRegistry>
         <SetRegEntry>
           <Number>0</Number>
-          <Key>DLGUARM</Key>
-        </SetRegEntry>
-        <SetRegEntry>
-          <Number>0</Number>
           <Key>UL2CM3</Key>
           <Name>UL2CM3(-O207 -S0 -C0 -FO7 -FD20000000 -FC800 -FN1 -FF0TM4C123_32 -FS00 -FL08000)</Name>
         </SetRegEntry>
@@ -312,10 +308,10 @@
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>47</ColumnNumber>
+      <ColumnNumber>0</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>739</TopLine>
-      <CurrentLine>753</CurrentLine>
+      <TopLine>1</TopLine>
+      <CurrentLine>1</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>.\compdcm_mpu9150.c</PathWithFileName>
       <FilenameWithoutPath>compdcm_mpu9150.c</FilenameWithoutPath>
@@ -333,7 +329,7 @@
       <TopLine>1</TopLine>
       <CurrentLine>1</CurrentLine>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\drivers\rgb.c</PathWithFileName>
+      <PathWithFileName>C:\Users\Johnny Cuenca\OneDrive\CSULB\CSULB Spring Semester 2017\CECS 490 - Senior Design II\TivaWare_C_Series-2.1.3.156\examples\boards\ek-tm4c123gxl-boostxl-senshub\drivers\rgb.c</PathWithFileName>
       <FilenameWithoutPath>rgb.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -365,7 +361,7 @@
       <TopLine>1292</TopLine>
       <CurrentLine>1293</CurrentLine>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\..\..\..\utils\uartstdio.c</PathWithFileName>
+      <PathWithFileName>C:\Users\Johnny Cuenca\OneDrive\CSULB\CSULB Spring Semester 2017\CECS 490 - Senior Design II\TivaWare_C_Series-2.1.3.156\utils\uartstdio.c</PathWithFileName>
       <FilenameWithoutPath>uartstdio.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -378,7 +374,7 @@
       <Focus>0</Focus>
       <ColumnNumber>25</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>171</TopLine>
+      <TopLine>33</TopLine>
       <CurrentLine>178</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>.\tPID.c</PathWithFileName>
@@ -405,7 +401,7 @@
       <TopLine>0</TopLine>
       <CurrentLine>0</CurrentLine>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\..\..\..\driverlib\rvmdk\driverlib.lib</PathWithFileName>
+      <PathWithFileName>C:\Users\Johnny Cuenca\OneDrive\CSULB\CSULB Spring Semester 2017\CECS 490 - Senior Design II\TivaWare_C_Series-2.1.3.156\driverlib\rvmdk\driverlib.lib</PathWithFileName>
       <FilenameWithoutPath>driverlib.lib</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -421,7 +417,7 @@
       <TopLine>0</TopLine>
       <CurrentLine>0</CurrentLine>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\..\..\..\sensorlib\rvmdk\sensorlib.lib</PathWithFileName>
+      <PathWithFileName>C:\Users\Johnny Cuenca\OneDrive\CSULB\CSULB Spring Semester 2017\CECS 490 - Senior Design II\TivaWare_C_Series-2.1.3.156\sensorlib\rvmdk\sensorlib.lib</PathWithFileName>
       <FilenameWithoutPath>sensorlib.lib</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>

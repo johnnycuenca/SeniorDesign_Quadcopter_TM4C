@@ -3,7 +3,58 @@
 <pre>
 <h1>µVision Build Log</h1>
 <h2>Project:</h2>
-C:\ti\TivaWare_C_Series-2.1.3.156\examples\boards\ek-tm4c123gxl-boostxl-senshub\compdcm_mpu9150 - Copy\compdcm_mpu9150.uvproj
-Project File Date:  04/05/2017
+C:\Users\Johnny Cuenca\OneDrive\CSULB\CSULB Spring Semester 2017\CECS 490 - Senior Design II\SeniorDesign_Quadcopter_TM4C\compdcm_mpu9150 - Copy\compdcm_mpu9150.uvproj
+Project File Date:  04/22/2017
 
 <h2>Output:</h2>
+Build target 'compdcm_mpu9150'
+compiling compdcm_mpu9150.c...
+compdcm_mpu9150.c(400): warning:  #177-D: variable "i32IPart" was declared but never referenced
+      int_fast32_t i32IPart[16], i32FPart[16];
+compdcm_mpu9150.c(400): warning:  #177-D: variable "i32FPart" was declared but never referenced
+      int_fast32_t i32IPart[16], i32FPart[16];
+compdcm_mpu9150.c(401): warning:  #177-D: variable "ui32Idx" was declared but never referenced
+      uint_fast32_t ui32Idx, ui32CompDCMStarted;
+compdcm_mpu9150.c(403): warning:  #550-D: variable "pfQuaternion" was set but never used
+      float *pfAccel, *pfGyro, *pfMag, *pfEulers, *pfQuaternion;
+compdcm_mpu9150.c(406): warning:  #550-D: variable "motor2" was set but never used
+          int motor1, motor2, motor3, motor4;
+compdcm_mpu9150.c(406): warning:  #550-D: variable "motor3" was set but never used
+          int motor1, motor2, motor3, motor4;
+compdcm_mpu9150.c(406): warning:  #550-D: variable "motor4" was set but never used
+          int motor1, motor2, motor3, motor4;
+compdcm_mpu9150.c(686): warning:  #177-D: variable "motorLeftStr" was declared but never referenced
+        char motorLeftStr[5];
+compdcm_mpu9150.c(687): warning:  #177-D: variable "motorRightStr" was declared but never referenced
+        char motorRightStr[5];
+compdcm_mpu9150.c(689): warning:  #177-D: variable "pvstr" was declared but never referenced
+        char pvstr[80];
+compdcm_mpu9150.c(690): warning:  #177-D: variable "mvstr" was declared but never referenced
+        char mvstr[80];
+compdcm_mpu9150.c(691): warning:  #177-D: variable "spstr" was declared but never referenced
+        char spstr[80];
+compdcm_mpu9150.c(692): warning:  #177-D: variable "kpstr" was declared but never referenced
+        char kpstr[80];
+compdcm_mpu9150.c(693): warning:  #177-D: variable "gyroRollStr" was declared but never referenced
+    char gyroRollStr[80];
+compdcm_mpu9150.c(695): warning:  #177-D: variable "rangestr" was declared but never referenced
+        char rangestr[80];
+compdcm_mpu9150.c(696): warning:  #177-D: variable "errorstr" was declared but never referenced
+        char errorstr[80];
+compdcm_mpu9150.c(697): warning:  #177-D: variable "currentspeedstr" was declared but never referenced
+        char currentspeedstr[80];
+compdcm_mpu9150.c(699): warning:  #550-D: variable "canPrintOut" was set but never used
+        bool canPrintOut = true;
+compdcm_mpu9150.c: 18 warnings, 0 errors
+compiling rgb.c...
+assembling startup_rvmdk.S...
+compiling uartstdio.c...
+compiling tPID.c...
+linking...
+Program Size: Code=13384 RO-data=476 RW-data=88 ZI-data=2808  
+After Build - User command #1: fromelf --bin --output .\rvmdk\compdcm_mpu9150.bin .\rvmdk\compdcm_mpu9150.axf
+".\rvmdk\compdcm_mpu9150.axf" - 0 Error(s), 18 Warning(s).
+699): warning:  #550-D: variable "canPrintOut" was set but never used
+        bool canPrintOut = true;
+compdcm_mpu9150.c: 18 warnings, 0 errors
+"compdcm_mpu9150.c" - 0 Error(s), 18 Warning(s).
