@@ -1,0 +1,13 @@
+--cpu Cortex-M4.fp
+".\rvmdk\compdcm_mpu9150.o"
+".\rvmdk\rgb.o"
+".\rvmdk\startup_rvmdk.o"
+".\rvmdk\uartstdio.o"
+".\rvmdk\tpid.o"
+"..\..\..\..\driverlib\rvmdk\driverlib.lib"
+"..\..\..\..\sensorlib\rvmdk\sensorlib.lib"
+--library_type=microlib --strict --scatter "compdcm_mpu9150.sct"
+
+--entry Reset_Handler --summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\rvmdk\compdcm_mpu9150.map" -o .\rvmdk\compdcm_mpu9150.axf
