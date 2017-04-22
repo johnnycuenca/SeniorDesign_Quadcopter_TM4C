@@ -1,66 +1,21 @@
 Dependencies for Project 'compdcm_mpu9150', Target 'compdcm_mpu9150': (DO NOT MODIFY !)
-F (.\compdcm_mpu9150.c)(0x58F847D8)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.. -I..\..\..\.. --c99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_TM4C123GH6PM -DTARGET_IS_TM4C123_RB1 -DUART_BUFFERED-o .\rvmdk\compdcm_mpu9150.o --omf_browse .\rvmdk\compdcm_mpu9150.crf --depend .\rvmdk\compdcm_mpu9150.d)
+F (.\compdcm_mpu9150.c)(0x58FBC5A5)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.. -I..\..\..\.. -I..\..\..\..\..\..\TivaWare_C_Series-2.1.3.156 -I..\..\..\..\..\driverlib --c99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_TM4C123GH6PM -DTARGET_IS_TM4C123_RB1 -DUART_BUFFERED-o .\rvmdk\compdcm_mpu9150.o --omf_browse .\rvmdk\compdcm_mpu9150.crf --depend .\rvmdk\compdcm_mpu9150.d)
 I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C89844)
 I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C89844)
 I (C:\Keil\ARM\ARMCC\include\stdbool.h)(0x51C89844)
-I (..\..\..\..\inc/hw_memmap.h)(0x5852C98A)
-I (..\..\..\..\inc/hw_ints.h)(0x5852C989)
-I (..\..\..\..\inc/hw_types.h)(0x5852C98A)
-I (..\..\..\..\inc/hw_gpio.h)(0x5852C989)
-I (..\..\..\..\driverlib/debug.h)(0x5852C984)
-I (..\..\..\..\driverlib/gpio.h)(0x5852C985)
-I (..\..\..\..\driverlib/interrupt.h)(0x5852C985)
-I (..\..\..\..\driverlib/pin_map.h)(0x5852C985)
-I (..\..\..\..\driverlib/rom.h)(0x5852C985)
-I (..\..\..\..\driverlib/sysctl.h)(0x5852C985)
-I (..\..\..\..\driverlib/uart.h)(0x5852C985)
-I (..\..\..\..\driverlib/pwm.h)(0x5852C985)
-I (..\..\..\..\utils/uartstdio.h)(0x5852C990)
-I (C:\Keil\ARM\ARMCC\include\stdarg.h)(0x51C89844)
-I (..\..\..\..\sensorlib/hw_mpu9150.h)(0x5852C98A)
-I (..\..\..\..\sensorlib/hw_ak8975.h)(0x5852C98A)
-I (..\..\..\..\sensorlib/i2cm_drv.h)(0x58B24B70)
-I (..\..\..\..\sensorlib/ak8975.h)(0x5852C98A)
-I (..\..\..\..\sensorlib/mpu9150.h)(0x58530394)
-I (..\..\..\..\sensorlib/comp_dcm.h)(0x5852C98A)
-I (tPID.h)(0x58F81B05)
-I (tMotor.h)(0x58F81C71)
-F (..\drivers\rgb.c)(0x5852C988)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.. -I..\..\..\.. --c99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_TM4C123GH6PM -DTARGET_IS_TM4C123_RB1 -DUART_BUFFERED-o .\rvmdk\rgb.o --omf_browse .\rvmdk\rgb.crf --depend .\rvmdk\rgb.d)
+F (C:\Users\Johnny Cuenca\OneDrive\CSULB\CSULB Spring Semester 2017\CECS 490 - Senior Design II\TivaWare_C_Series-2.1.3.156\examples\boards\ek-tm4c123gxl-boostxl-senshub\drivers\rgb.c)(0x581FEDFA)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.. -I..\..\..\.. -I..\..\..\..\..\..\TivaWare_C_Series-2.1.3.156 -I..\..\..\..\..\driverlib --c99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_TM4C123GH6PM -DTARGET_IS_TM4C123_RB1 -DUART_BUFFERED-o .\rvmdk\rgb.o --omf_browse .\rvmdk\rgb.crf --depend .\rvmdk\rgb.d)
 I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C89844)
 I (C:\Keil\ARM\ARMCC\include\stdbool.h)(0x51C89844)
-I (..\..\..\..\inc/hw_types.h)(0x5852C98A)
-I (..\..\..\..\inc/hw_memmap.h)(0x5852C98A)
-I (..\..\..\..\inc/hw_timer.h)(0x5852C98A)
-I (..\..\..\..\inc/hw_ints.h)(0x5852C989)
-I (..\..\..\..\driverlib/sysctl.h)(0x5852C985)
-I (..\..\..\..\driverlib/rom.h)(0x5852C985)
-I (..\..\..\..\driverlib/rom_map.h)(0x5852C985)
-I (..\..\..\..\driverlib/pin_map.h)(0x5852C985)
-I (..\..\..\..\driverlib/timer.h)(0x5852C985)
-I (..\..\..\..\driverlib/gpio.h)(0x5852C985)
-I (..\..\..\..\driverlib/interrupt.h)(0x5852C985)
-I (..\drivers\rgb.h)(0x5852C988)
-F (.\startup_rvmdk.S)(0x58ED5C5B)(--cpu Cortex-M4.fp --pd "__EVAL SETA 1" -g --apcs=interwork --pd "__MICROLIB SETA 1"-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-o .\rvmdk\startup_rvmdk.o --depend .\rvmdk\startup_rvmdk.d)
-F (..\..\..\..\utils\uartstdio.c)(0x5852C990)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.. -I..\..\..\.. --c99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_TM4C123GH6PM -DTARGET_IS_TM4C123_RB1 -DUART_BUFFERED-o .\rvmdk\uartstdio.o --omf_browse .\rvmdk\uartstdio.crf --depend .\rvmdk\uartstdio.d)
+F (.\startup_rvmdk.S)(0x58FBC314)(--cpu Cortex-M4.fp --pd "__EVAL SETA 1" -g --apcs=interwork --pd "__MICROLIB SETA 1"-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-o .\rvmdk\startup_rvmdk.o --depend .\rvmdk\startup_rvmdk.d)
+F (C:\Users\Johnny Cuenca\OneDrive\CSULB\CSULB Spring Semester 2017\CECS 490 - Senior Design II\TivaWare_C_Series-2.1.3.156\utils\uartstdio.c)(0x581FEE17)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.. -I..\..\..\.. -I..\..\..\..\..\..\TivaWare_C_Series-2.1.3.156 -I..\..\..\..\..\driverlib --c99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_TM4C123GH6PM -DTARGET_IS_TM4C123_RB1 -DUART_BUFFERED-o .\rvmdk\uartstdio.o --omf_browse .\rvmdk\uartstdio.crf --depend .\rvmdk\uartstdio.d)
 I (C:\Keil\ARM\ARMCC\include\stdbool.h)(0x51C89844)
 I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C89844)
 I (C:\Keil\ARM\ARMCC\include\stdarg.h)(0x51C89844)
-I (..\..\..\..\inc/hw_ints.h)(0x5852C989)
-I (..\..\..\..\inc/hw_memmap.h)(0x5852C98A)
-I (..\..\..\..\inc/hw_types.h)(0x5852C98A)
-I (..\..\..\..\inc/hw_uart.h)(0x5852C98A)
-I (..\..\..\..\driverlib/debug.h)(0x5852C984)
-I (..\..\..\..\driverlib/interrupt.h)(0x5852C985)
-I (..\..\..\..\driverlib/rom.h)(0x5852C985)
-I (..\..\..\..\driverlib/rom_map.h)(0x5852C985)
-I (..\..\..\..\driverlib/sysctl.h)(0x5852C985)
-I (..\..\..\..\driverlib/uart.h)(0x5852C985)
-I (..\..\..\..\utils/uartstdio.h)(0x5852C990)
-F (.\tPID.c)(0x58F86039)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.. -I..\..\..\.. --c99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_TM4C123GH6PM -DTARGET_IS_TM4C123_RB1 -DUART_BUFFERED-o .\rvmdk\tpid.o --omf_browse .\rvmdk\tpid.crf --depend .\rvmdk\tpid.d)
+F (.\tPID.c)(0x58FBC314)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.. -I..\..\..\.. -I..\..\..\..\..\..\TivaWare_C_Series-2.1.3.156 -I..\..\..\..\..\driverlib --c99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_TM4C123GH6PM -DTARGET_IS_TM4C123_RB1 -DUART_BUFFERED-o .\rvmdk\tpid.o --omf_browse .\rvmdk\tpid.crf --depend .\rvmdk\tpid.d)
 I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C89844)
 I (C:\Keil\ARM\ARMCC\include\stdbool.h)(0x51C89844)
-I (tPID.h)(0x58F81B05)
-I (tMotor.h)(0x58F81C71)
-F (..\..\..\..\driverlib\rvmdk\driverlib.lib)(0x5852C985)()
-F (..\..\..\..\sensorlib\rvmdk\sensorlib.lib)(0x5852C98A)()
-F (.\readme.txt)(0x5852C988)()
+I (tPID.h)(0x58FBC314)
+I (tMotor.h)(0x58FBC314)
+F (C:\Users\Johnny Cuenca\OneDrive\CSULB\CSULB Spring Semester 2017\CECS 490 - Senior Design II\TivaWare_C_Series-2.1.3.156\driverlib\rvmdk\driverlib.lib)(0x581FEDE6)()
+F (C:\Users\Johnny Cuenca\OneDrive\CSULB\CSULB Spring Semester 2017\CECS 490 - Senior Design II\TivaWare_C_Series-2.1.3.156\sensorlib\rvmdk\sensorlib.lib)(0x581FEE00)()
+F (.\readme.txt)(0x58FBC314)()
